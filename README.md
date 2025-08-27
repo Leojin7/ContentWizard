@@ -1,4 +1,4 @@
 # ContentWizard
 
 
-## PRoject in Developemnt phase
+## Project in Development phase
