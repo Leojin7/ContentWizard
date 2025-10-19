@@ -3,12 +3,13 @@ import { useClickOutside } from '../../hooks/useClickOutside';
 import { SearchIcon, BellIcon, MessageIcon, MenuIcon } from '../icons/Icons';
 import NotificationsPopover from './NotificationsPopover';
 import MessagesPopover from './MessagesPopover';
-
+// interface
 interface HeaderProps {
     onSearchChange: (term: string) => void;
     onMenuClick: () => void;
     isNotificationsOpen: boolean;
     setIsNotificationsOpen: (isOpen: boolean) => void;
+    
     isMessagesOpen: boolean;
     setIsMessagesOpen: (isOpen: boolean) => void;
 }
