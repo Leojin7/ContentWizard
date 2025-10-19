@@ -15,6 +15,8 @@ const MessageItem = ({ user, text, time }: { user: typeof USERS[0], text: string
     </div>
 );
 
+
+
 const MessagesPopover: React.FC = () => {
   return (
     <Popover>
