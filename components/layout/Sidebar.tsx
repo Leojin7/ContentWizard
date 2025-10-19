@@ -104,7 +104,8 @@ export default function Sidebar({ isSidebarOpen, setIsSidebarOpen, activePage, s
 
   return (
     <>
-    {/* Mobile Sidebar */}
+    {/*  Sidebar for mobile improvement*/}
+        
     <div className={`fixed inset-0 z-40 lg:hidden transition-transform duration-300 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="absolute inset-0 bg-black opacity-50" onClick={() => setIsSidebarOpen(false)}></div>
         <aside className="relative z-10 w-72 flex flex-col bg-black/70 backdrop-blur-2xl border-r border-white/10 text-light-text h-full">
